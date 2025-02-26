@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    font-family: Archivo Narrow;
+}
+
+section {
+    text-align: center;
+    height: 30rem; /*generic block size*/
+    border: 1px solid black;
+    
+}
+
+.intro {
+    overflow: hidden;
+    background-image: url(https://wudesign.me/resources/using-images/images/shelf-cloud-wide.jpg);
+}
+
+.intro h1 {
+    margin-top: 9.5rem;
+    font-size: 5rem;
+}
+
+.intro h2 {
+    font-size: 30px;
+    margin-top: -70px;
+}
+
+.second {
+    height: 44.5rem;
+    
+}
+
+.second h1 {
+    font-size: 40.8px;
+}
+.second p {
+    padding: 0 30rem;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 18px;
+    word-wrap: break-word;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.fourthree {
+    float: right;
+    padding-right: 25%;
+    margin: 1%;
+    max-width: 40%; 
+}
+
+.third {
+    height: 43em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.third h1 {
+    font-size: 40.8px;
+    margin-bottom: 2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    list-style-type: none;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.grid li {
+    text-align: left;
+}
+
+.photo-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.photo-item img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.photo-details {
+    max-width: 60%;
+}
+
+.photo-details h3 {
+    font-size: 1.3rem;
+    margin: 0.5rem 0;
+}
+
+.photo-details p {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.fourth {
+    height: 25.5rem;
+    overflow: hidden;
+}
+
+.fourth h1 {
+    font-size: 43px;
+    margin-bottom: 2rem;
+}
+
+.fourth p {
+    padding: 0 30rem;
+    text-align: flex;
+    text-justify: inter-word;
+    font-size: 25px;
+    word-wrap: break-word;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.final {
+    height: 7rem;
+}
+
+.final p {
+    margin-top: 35px;
+    padding: 0 29rem;
+    float: left;
+    font-size: 20px;
+}
