@@ -1,0 +1,109 @@
+@font-face {
+    font-family: alexToth;
+    src: url("typefaces/alex-toth.ttf");
+}
+
+@font-face {
+    font-family: spongeBoy;
+    src: url("typefaces/spongeboy-Me-Bob.ttf");
+}
+
+body {
+    background-image: url("images/bubblestand.jpg");
+    background-size: cover;
+  }
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    display: inline-flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    font-family: spongeBoy;
+    color:ivory !important;
+    padding-bottom: 25px;
+}
+
+.navbar a:hover {
+    color:aquamarine;
+    background-color: darkolivegreen;
+}
+
+li {
+    padding: 20px;
+    color:ivory !important;
+    font-size: 150%;
+}
+
+div.body_text {
+    background-color: #11157C;
+    border-radius:50px;
+    min-width: 90px;
+    max-width: auto -5px;
+    text-align: left;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    opacity: 100% !important;
+    top: 50%;
+    left: 50%;
+    transform: auto;
+}
+
+div.wrap {
+    background-color: #F9EE84;
+    opacity: 100%;
+    border-radius:25px;
+}
+
+p {
+    color:ivory;
+    min-width: 20ch;
+    max-width: auto;
+    text-justify: auto;
+    font-size: auto;
+    line-height: auto;
+    font-family: spongeBoy;
+}
+
+img {
+    max-width: 300px;
+    min-height: 300px;
+    min-width: auto;
+    min-height: auto;
+}
+
+#signature {
+    min-width: 25px;
+    min-height: 50px;
+}
+
+h1 {
+   font-family: alexToth;
+   color:ivory;
+   font-size: auto;
+}
+
+h4 {
+    color:ivory;
+    font-family: spongeBoy;
+}
+
+h1.header {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    color:ivory;
+    font-family: alexToth;
+}
+
+h4.footer {
+    text-align: center;
+    color:ivory;
+}
